@@ -5,11 +5,17 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    background-color: #614385;
+    /* Set background color of the page */
+    height: 100%;
+}
+
 .container {
-    position: relative;
-    min-height: 100vh;
-    background: #614385;
     padding: 10px;
+    margin-bottom: 20px;
+    /* Add margin to create space between the container and footer */
 }
 
 .todo-app {
@@ -111,17 +117,8 @@ ul li span:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #614385;
-    color: white;
+    background-color: #614385;
+    color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
 }
-
-
-
-
-
